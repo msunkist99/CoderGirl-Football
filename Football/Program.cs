@@ -15,6 +15,9 @@ namespace Football
             // Compute the number of points in a single line of code.
             int points = 0;
 
+            points = (touchdowns * 7);
+            points += (fieldgoals * 3);
+
             Console.WriteLine($"The team scored {points} points.");
 
             Console.ReadLine();
